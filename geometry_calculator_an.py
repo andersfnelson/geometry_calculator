@@ -26,21 +26,21 @@ def main():
         if value == 0:
             break
         elif value == 1:
-            cone.main()
+            cone.prompt()
         elif value == 2:
-            cube.main()
+            cube.prompt()
         elif value == 3:
-            cuboid.main()
+            cuboid.prompt()
         elif value == 4:
-            cylinder.main()
+            cylinder.prompt()
         elif value == 5:
-            equilateral_triangle.main()
+            equilateral_triangle.prompt()
         elif value == 6:
-            sphere.main()
+            sphere.prompt()
         elif value == 7:
-            trapezoid.main()
+            trapezoid.prompt()
         elif value == 8:
-            triangle.main()
+            triangle.prompt()
         else:
             print("Invalid input! Please try again.")
             
